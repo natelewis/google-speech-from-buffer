@@ -1,6 +1,6 @@
 {
   "name": "google-speech-from-buffer",
-  "description: "Wrapper for Google Speech API designed to pass in a buffer and return the recognized text.",
+  "description": "Wrapper for Google Speech API designed to pass in a buffer and return the recognized text.",
   "keywords": [
     "speech",
     "recognition",
