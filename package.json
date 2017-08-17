@@ -1,0 +1,29 @@
+{
+  "name": "google-speech-from-buffer",
+  "version": "0.0.1",
+  "private": true,
+  "license": "Apache Version 2.0",
+  "author": "Nate Lewis",
+  "scripts": {
+    "lint": "eslint \"**/*.js\" --fix; true",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/natelewis/google-speech-from-buffer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/natelewis/google-speech-from-buffer/issues"
+  },
+  "homepage": "https://github.com/natelewis/google-speech-from-buffer",
+  "dependencies": {
+    "@google-cloud/speech": "^0.10.2"
+  },
+  "devDependencies": {
+    "eslint": "^4.4.1",
+    "eslint-config-google": "^0.9.1"
+  },
+  "engines": {
+    "node": "7"
+  }
+}
