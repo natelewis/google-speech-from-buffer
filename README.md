@@ -2,7 +2,7 @@
 
 Wrapper for Google Speech API designed to pass in a buffer and return a recognized text.
 
-## Google API Service key
+## Google Service Account key
 To use Google Speech APIs you must have your api turned on with billing enabled.  Walking through the quick start and running example code is the best way to make sure this is set up properly
 
 https://cloud.google.com/speech/docs/getting-started
