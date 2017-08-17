@@ -1,4 +1,4 @@
-/*!
+/**
  * Copyright 2017 Nate Lewis All Rights Reserved.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -25,7 +25,7 @@ const GoogleCloudSpeech = require('@google-cloud/speech');
  * let speech = new Speech({
  *   sampleRateHertz: 16000,  // default
  *   encoding: 'LINEAR16',    // default
- *   languageCode: 'en-US,    // default
+ *   languageCode: 'en-US',   // default
  *   }
  * );
  * speech.recognize(buffer).then((statement) => {
