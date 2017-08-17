@@ -25,13 +25,15 @@ const Speech = require('google-speech-from-buffer');
 let speech = new Speech({
   sampleRateHertz: 16000,  // default
   encoding: 'LINEAR16',    // default
-  languageCode: 'en-US',    // default
+  languageCode: 'en-US',   // default
   }
 );
 
-speech.recognize(buffer).then((statement) => {
-  console.log(statement);
-}).catch((error) => {
-  console.log(error);
-});
+speech.recognize(buffer)
+  .then((statement) => {
+    console.log(statement);
+  })
+  .catch((error) => {
+    console.log(error);
+  });
 ```
