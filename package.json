@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/natelewis/google-speech-from-buffer",
   "dependencies": {
-    "@google-cloud/speech": "^0.10.2"
+    "@google-cloud/speech": "^7.2.0"
   },
   "devDependencies": {
     "eslint": "^4.4.1",
